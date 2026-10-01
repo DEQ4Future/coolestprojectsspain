@@ -243,6 +243,25 @@ h3 {
   gap: 24px;
 }
 
+.deadline-note {
+  display: inline-block;
+  margin: 28px 0 0;
+  padding: 10px 16px;
+  color: var(--ink);
+  background: var(--yellow);
+  border: 3px solid var(--ink);
+  box-shadow: 5px 5px 0 var(--ink);
+  font-size: 17px;
+  font-weight: 750;
+  line-height: 1.4;
+  transform: rotate(-1deg);
+}
+
+.deadline-note strong {
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
 .button {
   display: inline-flex;
   min-height: 54px;

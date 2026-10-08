@@ -262,6 +262,15 @@ h3 {
   text-transform: uppercase;
 }
 
+.deadline-note del {
+  opacity: 0.55;
+  text-decoration-thickness: 2px;
+}
+
+.deadline-note ins {
+  text-decoration: none;
+}
+
 .button {
   display: inline-flex;
   min-height: 54px;
@@ -607,6 +616,38 @@ h3 {
   margin: 0;
   font-size: 16px;
   line-height: 1.55;
+}
+
+.program-audience {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 12px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.program-audience li {
+  padding: 4px 10px;
+  color: var(--ink);
+  border: 2px solid var(--ink);
+  font-size: 11px;
+  font-weight: 950;
+  letter-spacing: 0.1em;
+  line-height: 1.4;
+  text-transform: uppercase;
+}
+
+.audience-participants {
+  background: var(--mint);
+}
+
+.audience-families {
+  background: var(--pink);
+}
+
+.audience-public {
+  background: var(--yellow);
 }
 
 .jury-criteria {
